@@ -8,7 +8,7 @@ const Entrance = ({}) => (
       <div>
         <img src="https://picsum.photos/500/500?image=503" alt="" />
         <img src="https://picsum.photos/500/500?image=503" alt="" />
-        <p>GO DOWN THE RABBIT HOLE</p>
+        <p>FOLLOW THE WHITE RABBIT</p>
       </div>
 
       <svg>
