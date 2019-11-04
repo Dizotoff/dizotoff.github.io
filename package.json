@@ -20,6 +20,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
+    "react-typical": "^0.1.2",
     "typeface-roboto": "0.0.75"
   },
   "devDependencies": {
