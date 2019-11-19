@@ -1,13 +1,40 @@
 .index {
-  background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0) 33%,
-      rgba(255, 255, 255, 0.05) 33%,
-      rgba(255, 255, 255, 0) 66%,
-      rgba(255, 255, 255, 0) 66%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    black;
-  min-height: 100vh;
+  &__lowerStick {
+    position: absolute;
+    left: 33.33%;
+    bottom: 0px;
+    width: 1.45rem;
+    height: 24vh;
+    z-index: 10;
+    background: #222222 none repeat scroll 0% 0%;
+    border-top-left-radius: 34px 41%;
+  }
+
+  &__upperStick {
+    position: absolute;
+    left: 33.33%;
+    top: 0px;
+    width: 1.45rem;
+    height: 24vh;
+    z-index: 10;
+    background: #222222 none repeat scroll 0% 0%;
+    border-bottom-left-radius: 34px 41%;
+  }
+
+  &__banner {
+    position: absolute;
+    padding-right: 10vw;
+    left: 10%;
+    top: 40%;
+    h1 {
+      font-size: 75px;
+    }
+    @media (max-width: ("600px")) {
+      top: 27%;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
 }

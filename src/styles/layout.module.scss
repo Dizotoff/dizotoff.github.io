@@ -1,3 +1,17 @@
+.layout {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 20px solid #222222;
+}
+
+.page_wrapper {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
