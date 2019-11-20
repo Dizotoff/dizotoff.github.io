@@ -9,7 +9,7 @@ const Header = ({ isDark }) => {
   if (isDark) {
     linkStyle = { color: "#deeaf3" }
   } else {
-    linkStyle = { color: "#c5484d" }
+    linkStyle = { color: "#222222" }
   }
 
   return (

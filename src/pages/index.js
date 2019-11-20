@@ -12,7 +12,7 @@ const IndexPage = () => {
       <div className={styles.index__upperStick}></div>
       <div className={styles.index__banner}>
         <p>
-          Welcome to the <strong>Personal Internet Quarters</strong> of Dmytro
+          Welcome to the <strong>Personal Internet Habitat</strong> of Dmytro
           Izotov
         </p>
       </div>

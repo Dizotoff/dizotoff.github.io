@@ -1,8 +1,17 @@
 .about {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   min-height: 100vh;
   border: 20px solid #c5484d;
-  background: #deeaf3;
+  background: #ffffff;
+
+  &__content {
+    align-items: center;
+    width: 40vw;
+
+    @media (max-width: 600px) {
+      width: 80vw;
+    }
+  }
 }
