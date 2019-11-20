@@ -2,10 +2,6 @@ import Typography from "typography"
 import grandViewTheme from "typography-theme-grand-view"
 
 grandViewTheme.overrideThemeStyles = () => ({
-  a: {
-    color: "#DEEAF3",
-  },
-
   "a:hover": {
     textDecoration: "none",
   },

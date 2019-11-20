@@ -31,6 +31,12 @@ $min_font: 20px;
 $max_font: 75px;
 
 .index {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 20px solid #deeaf3;
+  background: #c5484d;
   &__upperStick {
     position: absolute;
     left: 33.33%;
