@@ -7,7 +7,7 @@ const Header = ({}) => (
   <div className={styles.header}>
     <Link to="/">home</Link>
     <div>
-      <Link to="/blog/">blog, </Link>
+      <Link to="/">blog, </Link>
       <Link to="/about/">about</Link>
     </div>
   </div>

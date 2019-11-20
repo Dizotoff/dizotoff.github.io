@@ -1,9 +1,9 @@
 import Typography from "typography"
-import theme from "typography-theme-lawton"
+import grandViewTheme from "typography-theme-grand-view"
 
-theme.overrideThemeStyles = () => ({
+grandViewTheme.overrideThemeStyles = () => ({
   a: {
-    color: "#222222",
+    color: "#DEEAF3",
   },
 
   "a:hover": {
@@ -11,10 +11,10 @@ theme.overrideThemeStyles = () => ({
   },
 
   h1: {
-    fontSize: "100px",
+    fontWeight: "300",
   },
 })
 
-const typography = new Typography(theme)
+const typography = new Typography(grandViewTheme)
 
 export default typography
