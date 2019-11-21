@@ -20,27 +20,20 @@ class Blog extends React.Component {
           <Bio />
           <p></p>
           <p></p>
-          <ul style={{ listStylePosition: "inside" }}>
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              return (
-                <article key={node.fields.slug}>
-                  <header>
-                    <li>
-                      <h4>
-                        <Link
-                          style={{ boxShadow: `none` }}
-                          to={node.fields.slug}
-                        >
-                          {title}
-                        </Link>
-                      </h4>
-                    </li>
-                  </header>
-                </article>
-              )
-            })}
-          </ul>
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <article key={node.fields.slug}>
+                <header>
+                  <h4>
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      • {title}
+                    </Link>
+                  </h4>
+                </header>
+              </article>
+            )
+          })}
         </div>
       </div>
     )
