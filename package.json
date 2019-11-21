@@ -32,7 +32,7 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-grand-view": "^0.16.19",
-    "typography-theme-lawton": "^0.16.19"
+    "typography-theme-stow-lake": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
