@@ -12,9 +12,12 @@ const IndexPage = () => {
       <Header isDark></Header>
       <div className={styles.index__upperStick}></div>
       <div className={styles.index__banner}>
-        <p>
-          Welcome to the <strong>Personal Internet Habitat</strong> of Dmytro
-          Izotov
+        <p style={{ fontWeight: "300" }}>
+          Welcome to the{" "}
+          <strong style={{ fontWeight: "600" }}>
+            Personal Internet Habitat
+          </strong>{" "}
+          of Dmytro Izotov
         </p>
       </div>
       <div className={styles.index__lowerStick}></div>
