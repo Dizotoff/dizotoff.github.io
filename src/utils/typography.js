@@ -1,5 +1,5 @@
 import Typography from "typography"
-import grandViewTheme from "typography-theme-grand-view"
+import grandViewTheme from "typography-theme-alton"
 
 grandViewTheme.overrideThemeStyles = () => ({
   a: {

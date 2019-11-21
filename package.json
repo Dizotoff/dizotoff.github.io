@@ -32,6 +32,7 @@
     "react-typical": "^0.1.2",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
+    "typography-theme-alton": "^0.16.19",
     "typography-theme-grand-view": "^0.16.19",
     "typography-theme-lawton": "^0.16.19"
   },
