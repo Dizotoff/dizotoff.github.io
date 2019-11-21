@@ -32,9 +32,8 @@ const About = () => (
         <p>
           I was born in Kamianets-Podilskyi city, Ukraine. It's a quite small
           city with mild winter and hot summer. After high school, I had been
-          studying Radio Physics, Electronics and Computer Systems faculty at
-          Taras Shevchenko National University of Kyiv where I understood the
-          coolness of natural sciences.
+          studying physics for two years at Taras Shevchenko National University
+          of Kyiv.
         </p>
         <p>In my spare time I like to do different fun things with numbers.</p>
         <p>Life is good.</p>
