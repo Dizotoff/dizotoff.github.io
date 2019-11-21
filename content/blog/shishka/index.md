@@ -12,4 +12,4 @@ Also, I need to admit that I have concerns regarding my English writing skills. 
 
 Habits are the building blocks of our life. My hope is this blog will provide the motivation and discipline to write to help me develop the habits of the mind of an intellectual craftsman.
 
-My blog is one of the millions of others, so no one probably ends up reading this.
+My blog is one of the millions of others, so no one probably ends up reading this, but I don't mind.
