@@ -18,17 +18,18 @@ class Blog extends React.Component {
         <div className={styles.blog}>
           <Header></Header>
           <Bio />
+          <p></p>
+          <p></p>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <article key={node.fields.slug}>
                 <header>
-                  <h3>
+                  <h4>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                      {title}
+                      • {title}
                     </Link>
-                  </h3>
-                  <small>{node.frontmatter.date}</small>
+                  </h4>
                 </header>
               </article>
             )
