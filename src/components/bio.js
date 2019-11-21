@@ -27,7 +27,11 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div className={styles.bio}>
-      <img className={styles.bio__image} src={mypic}></img>
+      <img
+        alt={"Dmytro Izotov"}
+        className={styles.bio__image}
+        src={mypic}
+      ></img>
       <p></p>
       <p className={styles.bio__description}>
         Written by <strong>{author}</strong> who lives and works in Helsinki
