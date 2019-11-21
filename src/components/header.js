@@ -7,9 +7,9 @@ const Header = ({ isDark }) => {
   let linkStyle = {}
 
   if (isDark) {
-    linkStyle = { color: "#deeaf3" }
+    linkStyle = { color: "#deeaf3", cursor: "pointer" }
   } else {
-    linkStyle = { color: "#222222" }
+    linkStyle = { color: "#222222", cursor: "pointer" }
   }
 
   return (
