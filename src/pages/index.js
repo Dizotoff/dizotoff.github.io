@@ -8,6 +8,7 @@ import Header from "../components/header"
 const IndexPage = () => {
   return (
     <div className={styles.index}>
+      <SEO title="Dmytro Izotov" />
       <Header isDark></Header>
       <div className={styles.index__upperStick}></div>
       <div className={styles.index__banner}>

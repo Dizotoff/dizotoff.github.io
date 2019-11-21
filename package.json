@@ -1,7 +1,7 @@
 {
   "name": "dmytro-personal-webpage",
   "private": true,
-  "description": "My personal webpage for promotion of things I'm doing",
+  "description": "Dmytro Izotov",
   "version": "0.1.0",
   "author": "Dmytro Izotov <izotov.dima@gmail.com>",
   "dependencies": {
