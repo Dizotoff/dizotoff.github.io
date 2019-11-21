@@ -17,9 +17,11 @@ class Blog extends React.Component {
 
         <div className={styles.blog}>
           <Header></Header>
-          <Bio />
-          <p></p>
-          <p></p>
+          <div className={styles.blog__content}>
+            <Bio />
+            <p></p>
+            <p></p>
+          </div>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

@@ -1,8 +1,14 @@
 .blog {
   display: flex;
   align-items: center;
+  position: absolute;
   flex-direction: column;
+  width: 100vw;
   min-height: 100vh;
   border: 20px solid #c5484d;
   background: #ffffff;
+
+  &__content {
+    padding-top: 75px;
+  }
 }

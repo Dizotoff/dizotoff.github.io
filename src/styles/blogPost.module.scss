@@ -2,11 +2,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: absolute;
   min-height: 100vh;
+  min-width: 100vw;
   border: 20px solid #c5484d;
   background: #ffffff;
 
   &__content {
+    padding-top: 75px;
     align-items: center;
     width: 40vw;
 
