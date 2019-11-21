@@ -9,23 +9,21 @@ import Div100vh from "react-div-100vh"
 const IndexPage = () => {
   return (
     <Div100vh>
-      <main>
-        <div className={styles.index}>
-          <SEO title="Dmytro Izotov" />
-          <Header isDark></Header>
-          <div className={styles.index__upperStick}></div>
-          <div className={styles.index__banner}>
-            <p style={{ fontWeight: "300" }}>
-              Welcome to the{" "}
-              <strong style={{ fontWeight: "600" }}>
-                Personal Internet Habitat
-              </strong>{" "}
-              of Dmytro Izotov
-            </p>
-          </div>
-          <div className={styles.index__lowerStick}></div>
+      <div className={styles.index}>
+        <SEO title="Dmytro Izotov" />
+        <Header isDark></Header>
+        <div className={styles.index__upperStick}></div>
+        <div className={styles.index__banner}>
+          <p style={{ fontWeight: "300" }}>
+            Welcome to the{" "}
+            <strong style={{ fontWeight: "600" }}>
+              Personal Internet Habitat
+            </strong>{" "}
+            of Dmytro Izotov
+          </p>
         </div>
-      </main>
+        <div className={styles.index__lowerStick}></div>
+      </div>
     </Div100vh>
   )
 }
