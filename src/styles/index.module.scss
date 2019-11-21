@@ -31,15 +31,13 @@ $min_font: 20px;
 $max_font: 75px;
 
 .index {
-  inset: 0px;
-
   display: flex;
   position: absolute;
   align-items: stretch;
   flex-direction: column;
   height: 100vh;
   border: 20px solid #deeaf3;
-  background: #c5484d none repeat scroll 0% 0%;
+  background: #c5484d;
   &__upperStick {
     position: absolute;
     left: 33.33%;
