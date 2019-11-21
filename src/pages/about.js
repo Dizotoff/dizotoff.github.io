@@ -21,18 +21,18 @@ const About = () => (
         <p>
           I'm 22 years old developer currently residing in Helsinki, Finland.
           The city where I moved to get my bachelor's degree in software
-          engineering. During my studies, I had a lucky chance to do exchange
+          engineering. During my studies, I had a lucky chance to do an exchange
           semester at Mount Royal University, Canada.
         </p>
         <p>
           Currently, I'm working in Telia company where I develop web
-          interfaces. I specialize in front end development with emphasis on UX
-          design and accessability.
+          interfaces. I specialize in front end development with an emphasis on
+          UX design and accessibility.
         </p>
         <p>
-          I was born in Kamianets-Podilskyi city, Ukraine. It's quite small city
-          with mild winter and hot summer. After high school, I had been
-          studiyng Radio Physics, Electronics and Computer Systems faculty at
+          I was born in Kamianets-Podilskyi city, Ukraine. It's a quite small
+          city with mild winter and hot summer. After high school, I had been
+          studying Radio Physics, Electronics and Computer Systems faculty at
           Taras Shevchenko National University of Kyiv where I understood the
           coolness of natural sciences.
         </p>

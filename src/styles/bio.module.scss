@@ -1,0 +1,17 @@
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin: 0 auto;
+  }
+}

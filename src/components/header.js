@@ -18,7 +18,7 @@ const Header = ({ isDark }) => {
         home
       </Link>
       <div>
-        <Link style={linkStyle} to="/">
+        <Link style={linkStyle} to="/blog/">
           blog,{" "}
         </Link>
         <Link style={linkStyle} to="/about/">
