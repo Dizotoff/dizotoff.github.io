@@ -22,7 +22,7 @@ const About = () => (
           I'm 22 years old developer currently residing in Helsinki, Finland.
           The city where I moved to get my bachelor's degree in software
           engineering. During my studies, I had a lucky chance to do an exchange
-          semester at Mount Royal University, Canada.
+          semester at Mount Royal University in Canada.
         </p>
         <p>
           Currently, I'm working in Telia company where I develop web
@@ -30,7 +30,7 @@ const About = () => (
           UX design and accessibility.
         </p>
         <p>
-          I was born in Kamianets-Podilskyi city, Ukraine. It's a quite small
+          I was born in Kamianets-Podilskyi city in Ukraine. It's a quite small
           city with mild winter and hot summer. After high school, I had been
           studying physics for two years at Taras Shevchenko National University
           of Kyiv.
