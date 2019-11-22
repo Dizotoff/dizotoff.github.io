@@ -4,7 +4,7 @@ module.exports = {
     description: `Dmytro Izotov`,
     author: `Dmytro Izotov`,
     social: {
-      twitter: `dizotoff`,
+      linkedin: `https://www.linkedin.com/in/dizotoff/`,
     },
   },
   plugins: [

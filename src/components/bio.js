@@ -24,7 +24,7 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author, linkedin } = data.site.siteMetadata
   return (
     <div className={styles.bio}>
       <img
@@ -35,7 +35,8 @@ const Bio = () => {
       <p></p>
       <p className={styles.bio__description}>
         Written by <strong>{author}</strong> who lives and works in Helsinki
-        building cool things.
+        building cool things. You should add him at{" "}
+        <a href={linkedin}>Linkedin</a>
       </p>
     </div>
   )

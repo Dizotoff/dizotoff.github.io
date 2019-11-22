@@ -3,7 +3,7 @@ import grandViewTheme from "typography-theme-alton"
 
 grandViewTheme.overrideThemeStyles = () => ({
   a: {
-    fontSize: "25px",
+    fontSize: "18px",
   },
 
   "a:hover": {
