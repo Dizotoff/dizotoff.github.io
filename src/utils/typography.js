@@ -4,6 +4,7 @@ import grandViewTheme from "typography-theme-alton"
 grandViewTheme.overrideThemeStyles = () => ({
   a: {
     fontSize: "18px",
+    cursor: "pointer",
   },
 
   "a:hover": {
