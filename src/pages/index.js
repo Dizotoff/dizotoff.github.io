@@ -8,7 +8,7 @@ import Header from "../components/header"
 import Div100vh from "react-div-100vh"
 const IndexPage = () => {
   return (
-    <Div100vh className={styles.index}>
+    <div className={styles.index}>
       <SEO title="Dmytro Izotov" />
       <Header isDark></Header>
       <div className={styles.index__upperStick}></div>
@@ -22,7 +22,7 @@ const IndexPage = () => {
         </p>
       </div>
       <div className={styles.index__lowerStick}></div>
-    </Div100vh>
+    </div>
   )
 }
 
