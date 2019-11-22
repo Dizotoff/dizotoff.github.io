@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import styles from "../styles/bio.module.scss"
+import { Link } from "gatsby"
 import mypic from "../../content/assets/profile-pic.jpg"
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -23,7 +24,7 @@ const Bio = () => {
       }
     }
   `)
-
+  const linkStyle = { color: "#deeaf3", cursor: "pointer" }
   const { author, linkedin } = data.site.siteMetadata
   return (
     <div className={styles.bio}>
@@ -35,8 +36,7 @@ const Bio = () => {
       <p></p>
       <p className={styles.bio__description}>
         Written by <strong>{author}</strong> who lives and works in Helsinki
-        building cool things. You should add him at{" "}
-        <a href={linkedin}>Linkedin</a>
+        building cool things. You should find him at Linkedin
       </p>
     </div>
   )
