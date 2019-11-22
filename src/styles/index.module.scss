@@ -33,13 +33,12 @@ $max_font: 75px;
 .index {
   height: 100%;
   display: flex;
-  align-items: stretch;
   position: absolute;
   flex-direction: column;
   justify-content: center;
   width: 100vw;
   border: 20px solid #deeaf3;
-  background: #c5484d;
+  background: #337cd5;
   &__upperStick {
     position: absolute;
     left: 33.33%;
@@ -48,7 +47,7 @@ $max_font: 75px;
     height: 24vh;
     z-index: 1;
     background: #deeaf3 none repeat scroll 0% 0%;
-    border-bottom-left-radius: 34px 41%;
+    border-bottom-right-radius: 34px 41%;
   }
 
   &__lowerStick {

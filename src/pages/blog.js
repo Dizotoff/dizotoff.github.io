@@ -28,7 +28,10 @@ class Blog extends React.Component {
               <article key={node.fields.slug}>
                 <header>
                   <h4>
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    <Link
+                      style={{ boxShadow: `none`, color: "#337CD5" }}
+                      to={node.fields.slug}
+                    >
                       • {title}
                     </Link>
                   </h4>
