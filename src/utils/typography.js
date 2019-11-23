@@ -5,6 +5,8 @@ grandViewTheme.overrideThemeStyles = () => ({
   a: {
     fontSize: "18px",
     cursor: "pointer",
+    color: "#009899",
+    textDecoration: "underline",
   },
 
   "a:hover": {

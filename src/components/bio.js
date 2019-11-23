@@ -18,14 +18,14 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            linkedin
+            twitter
           }
         }
       }
     }
   `)
   const linkStyle = { color: "#deeaf3", cursor: "pointer" }
-  const { author, linkedin } = data.site.siteMetadata
+  const { author, social } = data.site.siteMetadata
   return (
     <div className={styles.bio}>
       <img
@@ -36,7 +36,10 @@ const Bio = () => {
       <p></p>
       <p className={styles.bio__description}>
         Written by <strong>{author}</strong> who lives and works in Helsinki
-        building cool things. You should find him at Linkedin
+        building cool things.{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>
+          You should follow him on Twitter
+        </a>
       </p>
     </div>
   )

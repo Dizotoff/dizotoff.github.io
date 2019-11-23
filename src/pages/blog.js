@@ -27,14 +27,18 @@ class Blog extends React.Component {
             return (
               <article key={node.fields.slug}>
                 <header>
-                  <h4>
+                  <p>
                     <Link
-                      style={{ boxShadow: `none`, color: "#337CD5" }}
+                      style={{
+                        boxShadow: `none`,
+                        color: "#009899",
+                        fontWeight: "400",
+                      }}
                       to={node.fields.slug}
                     >
-                      • {title}
+                      {title}
                     </Link>
-                  </h4>
+                  </p>
                 </header>
               </article>
             )
