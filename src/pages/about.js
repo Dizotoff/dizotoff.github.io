@@ -33,7 +33,7 @@ const About = () => (
             During my studies, I had a lucky chance to do an exchange semester
             at{" "}
             <a href={`https://www.mtroyal.ca/`}>
-              Mount Royal University in Canada
+              Mount Royal University in Canada.
             </a>{" "}
             I have been working as web developer in{" "}
             <a href={`https://en.wikipedia.org/wiki/Telia_Company`}>Telia</a>{" "}
