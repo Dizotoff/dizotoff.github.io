@@ -16,13 +16,13 @@ I was always wondered by the possibility of mobile developers to make apps for t
 
 I decided that it's time for me to ship a product. There are several reasons for that:
 
-- Reason 1. SaaS is cool. I want to have one.
+- Reason 1. SaaS is cool. I want to have one -
   The lightweight method of shipping digital web apps is just awesome. I can create an app and people can run it without any downloading or installation.
 
-- Reason 2. Develop my skillset
-  For this project, I'm going to pick a new language for me - Typescript. Also, I'll go with a full custom bundler configuration. Not really for the sake of challenge, but scalability.
+- Reason 2. Develop my skillset -
+  For this project, I'm going to pick a new language for me - Typescript. Also, I'm planning to learn project management.
 
-- Reason 3. Develop my portfolio
+- Reason 3. Develop my portfolio -
   Currently, I have only a couple of portfolio projects on GitHub, but almost nothing with real users or done with a real purpose in mind. It was basically just to develop my skills and show off.
 
 With this in mind, I can't really fail if my project won't succeed in terms of real users, because I'll develop my skillset and portfolio in the end. It is a win-win situation. Also, by putting everything here in the blog and on twitter, by sharing everything I learned with others, I'm making a contribution to other learners/developers/seekers because I open the doors to share the process of learning, not only the final product.
