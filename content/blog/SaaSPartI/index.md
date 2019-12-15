@@ -1,5 +1,5 @@
 ---
-title: SaaS Creation Part I
+title: SaaS Creation Part I - The Idea
 date: "2019-12-08"
 description: "I'm going to create a SaaS and here's why"
 ---
