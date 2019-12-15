@@ -10,7 +10,7 @@ Some people had quite good feedback about the idea. I'm very grateful for the mo
 
 ![Hopper The Rabbit](../../assets/IdeaValidation.png)
 
-Nevertheless, these comments aren't enough to understand something. I'm going to create a landing page of my future software with a product pitch on it and some designs of the actual app. Then ask people to give their emails in the exchange for beta testing participation. That could show me how interested people are and also create a bunch of future testers. **Those people will dictate the functionality of the future app.** Moreover, I'll have validation of my idea which could offer me some possibility of developing this project as a part of my Bachelor's Degree and/or place in a startup accelerator.
+Nevertheless, these comments aren't enough to understand something. I'm going to create a landing page of my future software with a product pitch on it and some designs of the actual app. Then ask people to give their emails in the exchange for beta testing participation. That could show me how interested people are and also create a bunch of future testers. **Those people will dictate the functionality of the future app.** Moreover, I'll have validation of my idea which could offer me some possibility of developing this project as a part of my Bachelor's Degree and/or bootstrap a startup.
 
 #### Landing page tech stack:
 
@@ -26,6 +26,7 @@ Nevertheless, these comments aren't enough to understand something. I'm going to
   1. What do you expect the software to do for you? (3 main expected outcomes)
   2. Are you already using a solution?
 - Get testimonials for "social proof"
+- Enjoy the journey
 
 I'm a bit afraid of negative results. But since I'm doing this project anyway, results of validation could only influence how much time I spend with not the main features of the app. The main reasons to do the app, remain my portfolio and skillset development.
 
