@@ -33,6 +33,6 @@ So I had been partying once at the music festival and noticed that it was way to
 
 My solution to this problem would be a web platform that generates visuals based on the sound input from the computer's mic with the possibility to create own visuals and share them with others and interactively perform live. Imaging playing the instrument, but instead of sounds it creates visuals. I created an early prototype for a local music event and performed with it around a year ago. Here are some videos:
 
-[![Youtube video](http://img.youtube.com/vi/9iJp6QSKcbI/0.jpg)](http://www.youtube.com/watch?v=9iJp6QSKcbI "Web Based Audio Responsive Visuals Prototype")
+[![Youtube video](../../assets/kaiku.png)](http://www.youtube.com/watch?v=9iJp6QSKcbI "Web Based Audio Responsive Visuals Prototype")
 
 At that time, I needed to drop the project because of personal reasons. Now, I'm back with even some real-world dev experience behind my shoulders. In the next article I'm going to discuss technical stack I'm going to use, mvp acception criteria and project ideation.
