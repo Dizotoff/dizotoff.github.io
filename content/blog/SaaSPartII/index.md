@@ -32,6 +32,8 @@ I'm a bit afraid of negative results. But since I'm doing this project anyway, r
 
 #### MVP
 
-So I decided that most emphasis of the app would be on the possibility to create own visual scenes. Enabling creative freedom of the users. Users should be able to share scenes with each other, save them and load. Also, would be nice to have the possibility of performing live with these scenes using a computer's or MIDI keyboard.
+So I decided that most emphasis of the app would be on the possibility to create own visual scenes. Enabling creative freedom of the users. Users should be able to share scenes with each other, save them and load. Also, would be nice to have the possibility of performing live with these scenes using a computer's or MIDI keyboard. Mic sensitivity calibration functionality is crucial as well. Very good UI/UX, high FPS rate. The most important task is to create an "online audiovisual engine" which would be simple and flexible.
 
-MVP is going to be a static website with the possibility to create own scenes. Users should also be able to save those scenes locally and then upload them back. Mic sensitivity calibration functionality is crucial as well. Very good UI/UX, high FPS rate. The most important task is to create an "online audiovisual engine" which would be simple and flexible.
+More requirements I'm going to gather during validation campaign.
+
+### Let the development begin!
