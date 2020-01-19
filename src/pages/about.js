@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -52,7 +50,9 @@ const About = () => (
           </p>
           <p>Parties and calculus are my best skills.</p>
           <p>Life is good.</p>
-          <p>✌️</p>
+          <span role="img" aria-label="peace emoji">
+            ✌️
+          </span>
         </article>
       </div>
     </div>

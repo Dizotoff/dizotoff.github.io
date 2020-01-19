@@ -8,8 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import styles from "./../styles/layout.module.scss"
-
 const Layout = ({ children }) => {
   return (
     <div>

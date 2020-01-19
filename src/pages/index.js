@@ -1,11 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "./../styles/index.module.scss"
-import Typical from "react-typical"
-import { Link } from "gatsby"
 import Header from "../components/header"
-import Div100vh from "react-div-100vh"
 const IndexPage = () => {
   return (
     <div className={styles.index}>

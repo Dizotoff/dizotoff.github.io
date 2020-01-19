@@ -1,8 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+
 import styles from "../styles/bio.module.scss"
-import { Link } from "gatsby"
+
 import mypic from "../../content/assets/profile-pic.jpg"
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -24,7 +24,7 @@ const Bio = () => {
       }
     }
   `)
-  const linkStyle = { color: "#deeaf3", cursor: "pointer" }
+
   const { author, social } = data.site.siteMetadata
   return (
     <div className={styles.bio}>
