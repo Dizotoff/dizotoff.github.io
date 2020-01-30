@@ -38,8 +38,9 @@ const Bio = () => {
         Written by <strong>{author}</strong> who lives and works in Helsinki
         building cool things.{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          You should follow him on Twitter{" "}
         </a>
+        or checkout his <a href={`https://github.com/Dizotoff`}>GitHub page</a>
       </p>
     </div>
   )
