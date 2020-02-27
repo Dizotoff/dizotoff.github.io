@@ -10,7 +10,11 @@
 
   &__content {
     padding-top: 75px;
+    padding-bottom: 18px;
     width: 40vw;
+    .a {
+      font-size: "50px";
+    }
 
     @media (max-width: 600px) {
       width: 80vw;
