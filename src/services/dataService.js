@@ -74,7 +74,12 @@ export default class DataService {
               repo: "https://github.com/Dizotoff/Photo-Beats",
               url: "https://photo-beats.com/",
             },
-
+  {
+              title: "Monqrime",
+              description: "An ecommerce store assembled for a friend within 12 hours of work. It is fully functioning, go order some stuff!",
+              techStack: "Shopify",
+              url: "https://monqrime.com/",
+            },
             {
               title: "My Portfolio Site",
               description: "Personal website",
