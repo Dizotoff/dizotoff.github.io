@@ -9,10 +9,13 @@ export default class DataService {
         icon: "info_bubble",
         content: {
           paragraphs: [
-            "I'm 23 years old developer currently residing in Helsinki, Finland. The city where I moved to get my bachelor's degree in software engineering. Subsequently, I tried founding a couple of startups.",
-            "During my studies, I had a lucky chance to do an exchange semester at Mount Royal University in Canada. I have been working as web developer in Telia since I came back.",
-            "My main tech stack is React & Node.js",
-            "Life is good",
+            "Hi, I am Dmytro :)",
+            "I was born in a Kamianets-Podilskyi, a small town with mild winter and hot summer in the western part of Ukraine.",
+            "Currently, I'm a developer residing in Helsinki, Finland. The city where I moved to get my bachelor's degree in software engineering. I've been working as a full-time web developer since the midpoint of my studies and successfully finished my degree",
+            "During my studies, I had a lucky chance to do an exchange semester at Mount Royal University in Canada.",
+            "My main tech stack is React & Node.js. Nowdays, I do full-stack developing for Telia",
+            "",
+            "Life is good ♥",
           ],
         },
       },
@@ -21,21 +24,31 @@ export default class DataService {
         name: "Resume.txt",
         icon: "notepad_2",
         content: {
-          resumeLink: "https://docs.google.com/document/",
+          resumeLink: "/",
           workExperience: [
             {
-              jobTitle: "Sample",
-              company: "Text",
-              location: "Text",
-              period: "Sample",
-              accomplishments: ["Sample"],
+              jobTitle: "Web Developer",
+              company: "Telia",
+              location: "Helsinki, Finland",
+              period: "MAY 2019 - NOW",
+              accomplishments: ["eCommerce microservices", "Design System"],
             },
           ],
           education: [
             {
+              credit: "Bachelor in Software Engineering",
+              place:
+                "Helsinki Metropolia University of Applied Sciences, Finland",
+              period: "SEPT 2016 – DEC 2020",
+            },
+            {
+              credit: "Bachelor in Computer Science (Exchange Student)",
+              place: "Mount Royal University, Canada",
+              period: "SEPT 2018 – DEC 2018",
+            },
+            {
               credit: "Bachelor in Applied Physics",
-              place: "Ukraine",
-              gpa: "4.0 GPA",
+              place: "Taras Shevchenko National University of Kyiv, Ukraine",
               period: "SEPT 2014 – AUG 2016",
             },
           ],
@@ -49,22 +62,23 @@ export default class DataService {
           projects: [
             {
               title: "WarmChat",
-              description: "Example text",
-              myRole: "OG",
+              description:
+                "Mobile friendly web chat where users can exchange using only warm messages",
               techStack: "React, Node, Express",
-              url: "photo-beats.com",
+              url: "https://pacific-castle-71280.herokuapp.com",
             },
             {
               title: "Photo-Beats",
-              description: "Fun staff",
-              techStack: "React",
-              repo: "https://github.com/dizotoff/",
+              description: "Real-time audio reactive visuals in the browser",
+              techStack: "React, Gatsby",
+              repo: "https://github.com/Dizotoff/Photo-Beats",
+              url: "https://photo-beats.com/",
             },
 
             {
               title: "My Portfolio Site",
               description: "Personal website",
-              techStack: "React, Netlify",
+              techStack: "React,",
               repo: "https://github.com/dizotoff/",
             },
           ],
@@ -85,12 +99,24 @@ export default class DataService {
               progress: 100,
             },
             {
+              name: "Scrum",
+              progress: 100,
+            },
+            {
               name: "Javascript",
               progress: 90,
             },
+            {
+              name: "GraphQL",
+              progress: 80,
+            },
+            {
+              name: "Jest",
+              progress: 80,
+            },
+             
           ],
-          soft:
-            "Analytical thinking, Teamwork, Creative Problem solving, Mangement, Leadership, Entrepreneurship",
+          soft: "Teamwork, Leadership, Analytical thinking",
         },
       },
       {
@@ -105,42 +131,35 @@ export default class DataService {
           social: [
             {
               name: "FaLinkedin",
-              link: "",
+              link: "https://www.linkedin.com/in/dizotoff/",
             },
             {
               name: "FaGithub",
-              link: "",
+              link: "https://github.com/Dizotoff",
             },
-            {
-              name: "FaInstagram",
-              link: "",
-            },
+
             {
               name: "FaTwitter",
-              link: "",
-            },
-            {
-              name: "FaMedium",
-              link: "",
+              link: "https://twitter.com/dizotoff",
             },
           ],
         },
       },
     ],
-  };
+  }
 
   getItems() {
-    return this._data.items.map(({ id, name, icon }) => ({ id, name, icon }));
+    return this._data.items.map(({ id, name, icon }) => ({ id, name, icon }))
   }
 
   getItem(id) {
-    return this._data.items.find((x) => x.id === id);
+    return this._data.items.find((x) => x.id === id)
   }
 
   getProjectInfo() {
     return {
       projectRepo: this._data.projectRepo,
       react95Repo: this._data.react95Repo,
-    };
+    }
   }
 }

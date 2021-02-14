@@ -39,9 +39,9 @@ function Resume({ content }) {
                     </div>
                 ))
             }
-            <StyledLink href={resumeLink} download>
+            {/* <StyledLink href={resumeLink} download>
                 <Button style={{ fontSize: "14px" }} className="pointer" >Download Resume</Button>
-            </StyledLink>
+            </StyledLink> */}
         </div>
     )
 }
