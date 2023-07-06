@@ -9,10 +9,13 @@ export default class DataService {
         icon: "info_bubble",
         content: {
           paragraphs: [
-            "Hi, I am Dmytro and I am a full-stack developer :)",
-            "I was born in a Kamianets-Podilskyi, a small town with mild winter and hot summer in the western part of Ukraine.",
-            "Currently, I'm residing in Helsinki, Finland and building the future of work in blockchain startup Kleoverse.",
-            "Life is good ♥",
+            "Hi, I am Dmytro and I am a Full-Stack developer",
+            "I have a passion for building things and learning new technologies. I am a big fan of React and Typescript.",
+            "I love finding efficient solutions to complex problems and turning abstract concepts into tangible, functional products. Coding is not just my job, but my passion, and I particularly enjoy working with React and TypeScript.",
+            "Outside the realm of coding, I spend time exploring new tech trends and innovations.",
+            "I have also developed a keen interest in product development. I love the entire process, from conceptualizing an idea to bringing it to life.",
+            "My latest project, CareerPen, is a testament to my passion for technology and problem-solving. It's designed to simplify the job application process by generating personalized cover letters at a click.",
+            "I'm excited to continue my journey, learning new things, tackling challenges, and making a difference in the tech world!",
           ],
         },
       },
@@ -26,8 +29,8 @@ export default class DataService {
             {
               jobTitle: "Full Stack Developer",
               company: "Kleoverse",
-              location: "Metaverse",
-              period: "JAN 2022 - NOW",
+              location: "Remote",
+              period: "JAN 2022 - Present",
               accomplishments: ["Web3", "Blockchain"],
             },
             {
@@ -65,24 +68,18 @@ export default class DataService {
         content: {
           projects: [
             {
-              title: "Zero-Zenith",
+              title: "CareerPen",
               description:
-                "Hiking route to every single country's highest peak from sea level",
+                "An AI-powered web application and browser extension for automating and personalizing cover letter creation using LinkedIn profile data.",
               techStack: "Next.js, Firebase, Typescript",
               url: "https://www.zero-zenith.com/",
             },
             {
-              title: "Monqrime",
+              title: "Zero-Zenith",
               description:
-                "An ecommerce store assembled for a friend within 12 hours of work. It is fully functioning, go order some stuff!",
-              techStack: "Shopify",
-              url: "https://monqrime.com/",
-            },
-            {
-              title: "My Portfolio Site",
-              description: "Personal website",
-              techStack: "React, Gatbsy",
-              repo: "https://github.com/dizotoff/",
+                "A project that documents the routes to the highest point of every county from the closest sea point. Users can submit their routes or existing route completion time",
+              techStack: "Next.js, Firebase, Typescript",
+              url: "https://www.zero-zenith.com/",
             },
           ],
         },
@@ -95,7 +92,7 @@ export default class DataService {
         content: {
           emailText:
             "If you want to hire me or invite to a project, just email me on ",
-          email: "dmytro.eth@proton.me",
+          email: "dizoto@proton.me",
           socialText: "Or you can reach me out through social media:",
           social: [
             {
@@ -105,11 +102,6 @@ export default class DataService {
             {
               name: "FaGithub",
               link: "https://github.com/Dizotoff",
-            },
-
-            {
-              name: "FaTwitter",
-              link: "https://twitter.com/dmytro_eth",
             },
           ],
         },
