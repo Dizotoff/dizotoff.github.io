@@ -11,7 +11,7 @@ function Projects({ content }) {
     const { projects } = content;
     return (
         <div>
-            <h2>Projects</h2>
+            <h2>Side Projects</h2>
             {
                 projects.map((project, idx) => (
                     <div key={idx}>
